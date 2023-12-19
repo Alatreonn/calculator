@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #003c3c;
+    background-color:#bae1ff; /*#003c3c*/
 }
 
 .container {
@@ -23,7 +23,8 @@ body {
     width: 492px;
     gap: 16px;
     border: 1px solid black;
-    background-color: black;
+    background-color: #9cadce;
+    filter: drop-shadow(1px 1px 1px #000);
     border-radius: 4%;
 }
 
@@ -34,7 +35,7 @@ body {
     font-size: 50px;
 
     border: 1px solid black;
-    background-color: darkgray;
+    background-color: #AEBDCA;
     height: 106px;
     width: 452px;
 }
@@ -81,9 +82,26 @@ body {
     align-items: center;
     border: 1px solid black;
     border-radius: 10%;
+    filter: drop-shadow(1px 1px 1px #000);
 }
 
 
 .numPad6 {
     height: 188px;
+}
+
+.color1 {
+    background-color: #D2E0FB;
+}
+
+.color2 {
+    background-color: #d4afb9;
+}
+
+.color3 {
+    background-color: #C9BBCF;
+}
+
+.color4{
+    background-color: #a06985;
 }
